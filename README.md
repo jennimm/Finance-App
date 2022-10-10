@@ -6,3 +6,4 @@ Our app will do the following things:
 - Display graphs regarding user's inputs
 - Produce projections for future financial scenarios
 
+Jira Doc: 
