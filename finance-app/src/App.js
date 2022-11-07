@@ -3,21 +3,23 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style="background-color:#F5F5F5">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <title>Banking Buddies</title>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to our website!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Divider>Look Below!</Divider>
       </header>
+
+      <body>
+      <p>
+        This website is designed ........
+        There is a section where you can input your data and it will visualise the information for you.
+        Also, you can use another section to produce future projecions based on your inputs.
+      </p>
+      </body>
     </div>
   );
 }
